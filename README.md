@@ -1,4 +1,14 @@
-My Portfolio
-It is portfolio made by me using React.js, Styled Components and custom css
+# Pathfinding Visualizer
 
-Visit Project
+It is a porfolio made by me
+
+## Built With
+
+- React.js
+- React Hooks
+- Custom CSS
+- Styled Components
+
+## Visit Project
+
+
