@@ -1,6 +1,6 @@
-# Pathfinding Visualizer
+# My Portfolio
 
-It is a porfolio made by me
+Responsive portfolio website 
 
 ## Built With
 
