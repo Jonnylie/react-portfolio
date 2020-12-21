@@ -9,6 +9,7 @@ import Image2 from '../images/image2.jpg'
 import Image4 from '../images/image.jpg'
 import { homeObjOne } from '../components/About/Data'
 import { ProjObjOne } from '../components/Projects/Data'
+import Contact from '../components/Contact'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -28,6 +29,7 @@ const Home = () => {
             <Slider slides={images} autoPlay={5} />
             <About {...homeObjOne} />
             <Projects {...ProjObjOne} />
+            <Contact />
         </div>
     )
 }
