@@ -10,6 +10,7 @@ import Image4 from '../images/image.jpg'
 import { homeObjOne } from '../components/About/Data'
 import { ProjObjOne } from '../components/Projects/Data'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -30,6 +31,7 @@ const Home = () => {
             <About {...homeObjOne} />
             <Projects {...ProjObjOne} />
             <Contact />
+            <Footer />
         </div>
     )
 }

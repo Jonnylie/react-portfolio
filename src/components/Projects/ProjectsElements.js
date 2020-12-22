@@ -95,13 +95,16 @@ export const Heading = styled.h5`
 `
 
 export const Subtitle2 = styled.p`
-  max-width: 340px;
   margin-bottom: 20px;
   font-size: 12px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
   @media screen and (min-width: 1101px){
     margin-left: ${({ imgStart }) => (imgStart ? '75px' : '-17.5px')};
+    max-width: 340px;
+  }
+  @media screen and (max-width: 1100px){
+    max-width: 555px;
   }
 `
 

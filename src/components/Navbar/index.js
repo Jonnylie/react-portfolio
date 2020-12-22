@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import { FaBars } from 'react-icons/fa'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { FiMail } from 'react-icons/fi'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavIconLink, NavItem2, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
@@ -45,7 +46,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to='contact'
-                                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                                smooth={true} duration={500} spy={true} exact='true' offset={-180}
                             >Contact ☎️</NavLinks>
                         </NavItem>
                     </NavMenu>
@@ -58,6 +59,11 @@ const Navbar = ({ toggle }) => {
                         <NavItem2>
                             <NavIconLink to={{ pathname: "https://www.linkedin.com/in/jonny-lie/" }} target="_blank" >
                                 <AiFillLinkedin />
+                            </NavIconLink>
+                        </NavItem2>
+                        <NavItem2>
+                            <NavIconLink to={{ pathname: "mailto:jonnylie1998@gmail.com" }} target="_blank" >
+                                <FiMail />
                             </NavIconLink>
                         </NavItem2>
                     </NavMenu>
