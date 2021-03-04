@@ -1,9 +1,9 @@
-import styled from 'styled-components'
-import { Link as LinkRouter } from 'react-router-dom'
-import { Link as LinkScroll } from 'react-scroll'
+import styled from "styled-components";
+import { Link as LinkRouter } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -42,16 +42,17 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-      color: white;
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
-      cursor: pointer;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
   }
-`
+`;
+
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
@@ -60,17 +61,19 @@ export const NavMenu = styled.ul`
   margin-right: -22px;
 
   @media screen and (max-width: 768px) {
-    display: none
+    display: none;
   }
-`
+`;
+
 export const NavItem = styled.li`
   height: 80px;
-`
+`;
+
 export const NavItem2 = styled.li`
   color: white;
   font-size: 20px;
   height: 80px;
-`
+`;
 
 export const NavLinks = styled(LinkScroll)`
   color: #fff;
@@ -82,18 +85,18 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #F5554F;
+    border-bottom: 3px solid #f5554f;
   }
-`
+`;
 
 export const NavBtn = styled.nav`
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 
- @media screen and (max-width: 768px) {
-   display: none;
- }
-`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
   background: #01bf71;
@@ -107,12 +110,12 @@ export const NavBtnLink = styled(LinkRouter)`
   transition: all 0.2s ease-in ease-in-out;
   text-decoration: none;
 
-  &:hover{
+  &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
   }
-`
+`;
 
 export const NavIconLink = styled(LinkRouter)`
   color: white;
@@ -120,7 +123,4 @@ export const NavIconLink = styled(LinkRouter)`
   display: flex;
   height: 100%;
   align-items: center;
-`
-
-
-
+`;

@@ -1,13 +1,13 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
-  @media screen and (max-width: 768px){
-    padding: 100px 0
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
   }
-`
+`;
 
 export const AboutWrapper = styled.div`
   display: grid;
@@ -19,79 +19,80 @@ export const AboutWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
-`
+`;
 
 export const AboutRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+  grid-template-areas: ${({ imgStart }) =>
+    imgStart ? `'col2 col1'` : `'col1 col2'`};
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
+    grid-template-areas: ${({ imgStart }) =>
+      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
-`
+`;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 15px;
-    grid-area: col1;
-`
+  margin-bottom: 15px;
+  padding: 0 15px;
+  grid-area: col1;
+`;
 export const Column2 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 15px;
-    grid-area: col2;
-`
+  margin-bottom: 15px;
+  padding: 0 15px;
+  grid-area: col2;
+`;
 
 export const TextWrapper = styled.div`
-    max-width:  540px;
-    padding-top: 0;
-    padding-bottom: 60px;
-`
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+`;
 export const TopLine = styled.h3`
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 16px;
-    margin-bottom: 16px;
-`
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 16px;
+  margin-bottom: 16px;
+`;
 export const TopLineText = styled.span`
-    color: #F5554F;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 16px;
-    margin-bottom: 16px;
-`
+  color: #f5554f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 16px;
+  margin-bottom: 16px;
+`;
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 1.1;
   font-weight: 500;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
-  @media screen and (max-width: 480px){
-      font-size: 24px;
+  @media screen and (max-width: 480px) {
+    font-size: 24px;
   }
-`
+`;
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 16px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
-`
+  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+`;
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
-`
+`;
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
-`
+`;
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
-`
-
+`;

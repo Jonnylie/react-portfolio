@@ -1,7 +1,7 @@
-import React from 'react'
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'
-import Home from './pages';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages";
 
 const App = () => {
   return (
@@ -9,6 +9,6 @@ const App = () => {
       <Home />
     </Router>
   );
-}
+};
 
 export default App;

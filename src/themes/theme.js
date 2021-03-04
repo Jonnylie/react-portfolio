@@ -1,3 +1,3 @@
 export const theme = {
-    textColor: '#fff'
-}
+  textColor: "#fff",
+};
