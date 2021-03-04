@@ -1,6 +1,6 @@
-# My Portfolio
+# A React Portfolio Site
 
-This project is my portfolio website built with [React] to highlight my programming related projects
+This project is my portfolio website built with [React](https://reactjs.org/) to highlight my programming related projects
 
 ## Built With
 
