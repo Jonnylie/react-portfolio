@@ -1,12 +1,12 @@
 # My Portfolio
 
-Responsive portfolio website 
+This project is my portfolio website built with [React] to highlight my programming related projects
 
 ## Built With
 
 - React.js
 - React Hooks
-- Custom CSS
+- React Router
 - Styled Components
 
 ## Using Docker
@@ -18,7 +18,7 @@ An additional Dockerfile has been added to the repo. If you wish to run the appl
 docker build -t portfolio:latest .
 
 # run docker container and portforward port 3000
-docker run -d -p 3000:3000 portfolio:latest
+docker run --name my-portfolio -d -p 3000:3000 portfolio:latest
 
 # View the running container
 Open up web browser and go to http://localhost:3000/
