@@ -8,6 +8,7 @@ This project is my portfolio website built with [React](https://reactjs.org/) to
 - React Hooks
 - React Router
 - Styled Components
+- Docker
 
 ## Using Docker
 
