@@ -9,7 +9,7 @@ This project is my portfolio website built with [React](https://reactjs.org/) to
 - React Router
 - Styled Components
 - Docker
-
+ 
 ## Using Docker
 
 An additional Dockerfile has been added to the repo. If you wish to run the application via Docker:
