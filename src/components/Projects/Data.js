@@ -24,8 +24,8 @@ export const ProjObjOne = {
   lightText2: true,
   lightTextDesc2: true,
   firstParagraph2:
-    "Responsive website to give detailed information about Mobile Legends game and teach people who are interested in playing the game.",
-  techStacks2: "React/Redux, CSS, Webpack, React Router",
+    "Website to give detailed information about Mobile Legends game and teach people who are interested in playing the game. Created app from scratch using Webpack and Babel",
+  techStacks2: "React/Redux, CSS, Webpack, Babel, React Router",
   imgStart2: false,
   img2: require("../../images/MLBBPro-Project.PNG").default,
   alt2: "MLBBPro-Project",
