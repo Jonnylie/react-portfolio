@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   AboutContainer,
   AboutWrapper,
@@ -13,6 +13,8 @@ import {
   ImgWrap,
   Img,
 } from "./AboutElements";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = ({
   lightBg,
@@ -27,10 +29,11 @@ const About = ({
   img,
   alt,
 }) => {
+  useEffect(() => Aos.init({}), []);
   return (
     <>
       <AboutContainer lightBg={lightBg} id={id}>
-        <AboutWrapper>
+        <AboutWrapper data-aos="fade-up">
           <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>

@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./form.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => Aos.init({}), []);
   return (
     <>
       <div id={"contact"} className="form-container">
-        <div className="form-content">
+        <div data-aos="fade-up" className="form-content">
           <form className="form" name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
             <h1> Get in Touch</h1>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Button2 } from "../ButtonElements";
 import {
   AboutContainer,
@@ -18,6 +18,8 @@ import {
 } from "./ProjectsElements";
 import { AiFillGithub } from "react-icons/ai";
 import { RiGooglePlayFill } from "react-icons/ri";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Projects = ({
   id,
@@ -66,18 +68,19 @@ const Projects = ({
   gitIconMarginLeft,
   gitIconMarginLeft2,
 }) => {
+  useEffect(() => Aos.init({}), []);
   return (
     <>
       <AboutContainer lightBg={lightBg} id={id}>
         <AboutWrapper>
           <Title>Projects</Title>
           <AboutRow imgStart={imgStart}>
-            <Column1>
+            <Column1 data-aos="fade-right">
               <ImgWrap>
                 <Img src={img} alt={alt} imgStart={imgStart} />
               </ImgWrap>
             </Column1>
-            <Column2>
+            <Column2 data-aos="fade-left">
               <TextWrapper>
                 <Heading imgStart={imgStart} lightText={lightText}>
                   {headline}
@@ -112,12 +115,12 @@ const Projects = ({
             </Column2>
           </AboutRow>
           <AboutRow imgStart={imgStart2}>
-            <Column1>
+            <Column1 data-aos="fade-right">
               <ImgWrap>
                 <Img src={img2} alt={alt2} imgStart={imgStart2} />
               </ImgWrap>
             </Column1>
-            <Column2>
+            <Column2 data-aos="fade-left">
               <TextWrapper>
                 <Heading imgStart={imgStart2} lightText={lightText}>
                   {headline}
@@ -152,12 +155,12 @@ const Projects = ({
             </Column2>
           </AboutRow>
           <AboutRow imgStart={imgStart}>
-            <Column1>
+            <Column1 data-aos="fade-right">
               <ImgWrap>
                 <Img src={img5} alt={alt5} imgStart={imgStart} />
               </ImgWrap>
             </Column1>
-            <Column2>
+            <Column2 data-aos="fade-left">
               <TextWrapper>
                 <Heading imgStart={imgStart} lightText={lightText}>
                   {headline}
@@ -184,12 +187,12 @@ const Projects = ({
           </AboutRow>
 
           <AboutRow imgStart={imgStart2}>
-            <Column1>
+            <Column1 data-aos="fade-right">
               <ImgWrap>
                 <Img src={img4} alt={alt4} imgStart={imgStart2} />
               </ImgWrap>
             </Column1>
-            <Column2>
+            <Column2 data-aos="fade-left">
               <TextWrapper>
                 <Heading imgStart={imgStart2} lightText={lightText}>
                   {headline}
@@ -224,12 +227,12 @@ const Projects = ({
             </Column2>
           </AboutRow>
           <AboutRow imgStart={imgStart}>
-            <Column1>
+            <Column1 data-aos="fade-right">
               <ImgWrap>
                 <Img src={img3} alt={alt3} imgStart={imgStart} />
               </ImgWrap>
             </Column1>
-            <Column2>
+            <Column2 data-aos="fade-left">
               <TextWrapper>
                 <Heading imgStart={imgStart} lightText={lightText}>
                   {headline}

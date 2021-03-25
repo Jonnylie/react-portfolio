@@ -39,7 +39,7 @@ const Slider = (props) => {
   const [state, setState] = useState({
     activeSlide: 0,
     translate: getWidth() * Math.floor((slides.length - 1) / 2),
-    transition: 0.45,
+    transition: 1,
     orders: slideOrder,
   });
 

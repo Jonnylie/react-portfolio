@@ -18,11 +18,11 @@ export const ProjObjOne = {
   darkText: false,
   gitIconMarginLeft: true,
 
+  topLine2: "MLBB Pro",
+  headline2: "✨ Featured Work",
   lightBg2: false,
   lightText2: true,
   lightTextDesc2: true,
-  topLine2: "MLBB Pro",
-  headline2: "✨ Featured Work",
   firstParagraph2:
     "Responsive website to give detailed information about Mobile Legends game and teach people who are interested in playing the game.",
   techStacks2: "React/Redux, CSS, Webpack, React Router",
@@ -49,8 +49,9 @@ export const ProjObjOne = {
 
   topLine4: "My Porfolio",
   firstParagraph4:
-    "Fully responsive react portfolio using React Hooks and Styled Components. This website highlights my recent projects and introduces more about myself",
-  techStacks4: "React.js, React Hooks, Styled Components, React Router, CSS",
+    "A react portfolio site built with React Hooks and Styled Components. In addition, I am integrating Docker to this project. This website highlights my recent projects and introduces more about myself",
+  techStacks4:
+    "React.js, Docker, React Hooks, Styled Components, React Router, CSS",
   img4: require("../../images/My-Portfolio-Project.PNG").default,
   alt4: "My-Portfolio-Project",
   pathName4: "https://jonnylie.netlify.app/",
@@ -59,9 +60,9 @@ export const ProjObjOne = {
 
   topLine5: "Ecommerce App",
   firstParagraph5:
-    "Mobile apps built with react native to buy products online. Using some animations and page transition to improve user experience. Project Features: user registration and login, shopping cart, payment.",
+    "Mobile apps built with react native to buy audio equipment online, including headphones and earbuds. Using some animations and page transition to improve user experience. Project Features: user registration and login with firebase, shopping cart, product order, purchase history.",
   techStacks5:
-    "React Native, CSS, React Hooks, Redux, Redux-Thunk, Animated API, React Navigation 5, Cloud Firestore",
+    "React Native, CSS, React Hooks, Redux, Redux-Thunk, Animated API, React Navigation 5, Shared Element and Firebase for database (NoSQL) and authentication",
   img5: require("../../images/Ecommerce.png").default,
   alt5: "Ecommerce-App-Project",
   gitPathName5: "https://github.com/Jonnylie/Ecommerce",

@@ -11,14 +11,17 @@ export const SliderContainer = styled.div`
 export const SliderContent = styled.div`
   transform: translateX(-${(props) => props.translate}px);
   transition: transform ease-out ${(props) => props.transition}s;
+  backface-visibility: visible;
   height: 100%;
   width: ${(props) => props.width}px;
   display: flex;
+  background: transparent;
 `;
 
 export const Slide = styled.div`
   height: 100;
   width: ${(props) => (props.width ? `${props.width}px` : "100%")};
+  -webkit-transform: translate3d(0, 0, 0);
   background-image: url(${(props) => props.content});
   background-size: cover;
   background-repeat: no-repeat;
